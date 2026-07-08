@@ -34,7 +34,7 @@
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-elg-primary selection:text-white">
 
-    <header id="main-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-slate-950/90 backdrop-blur-md py-4 shadow-premium">
+    <header id="main-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-slate-950/20 backdrop-blur-md py-4 shadow-premium">
         <div class="container mx-auto px-6 max-w-7xl flex justify-between items-center">
             <div class="text-2xl font-extrabold tracking-tight text-slate-900 flex items-center gap-2">
                 <span class="bg-elg-primary text-white w-8 h-8 rounded-lg flex items-center justify-center font-black shadow-md">E</span>
@@ -42,12 +42,14 @@
             </div>
             <nav class="hidden lg:flex items-center space-x-8 font-medium text-white/90">
                 <a href="index.html" class="hover:text-elg-cta transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-elg-cta after:transition-all">Accueil</a>
+                <a href="qui-sommes-nous.html" class="hover:text-elg-cta transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-elg-cta after:transition-all">Qui sommes-nous</a>
                 <a href="services.html" class="hover:text-elg-cta transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-elg-cta after:transition-all">Services</a>
-                <a href="blog.html" class="text-elg-cta transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-elg-cta">Blog</a>
+                <a href="aides.html" class="text-elg-cta transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-elg-cta">Aides</a>
+                <a href="nos-realisations.html" class="hover:text-elg-cta transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-elg-cta after:transition-all">Réalisations</a>
                 <a href="contact.html" class="hover:text-elg-cta transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-elg-cta after:transition-all">Contact</a>
             </nav>
-            <a href="devis.html" class="bg-elg-cta text-white font-bold px-6 py-3 rounded-xl transition duration-300 shadow-md hover:shadow-glow">
-                Demander un devis →
+            <a href="devis.html" class="relative group overflow-hidden bg-elg-cta text-white font-bold px-6 py-3 rounded-xl transition duration-300 shadow-md hover:shadow-glow">
+                <span class="relative z-10 flex items-center gap-2">Demander un devis <span>→</span></span>
             </a>
         </div>
     </header>
